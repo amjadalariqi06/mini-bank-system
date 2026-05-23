@@ -1,16 +1,12 @@
 #include <iostream>
+#include <fstream>
+#include "sos.cpp"
+#include "Login.cpp"
 
 using namespace std;
 
-struct User
-{
-    string accountNumber;
-    string name;
-    string password;
-    double balance;
-};
-
 int main()
 {
+    signUp();
     return 0;
 }
